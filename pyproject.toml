@@ -6,12 +6,13 @@ authors = ["Leandro Correia <leandro.correia@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "<3.13,>3.9"
 langchain = "^0.2.1"
 langchain-openai = "^0.1.8"
 python-dotenv = "^1.0.1"
 langchain-community = "^0.2.1"
 prompt-toolkit = "^3.0.45"
+langchain-chroma = "^0.1.1"
 
 
 [tool.poetry.group.dev.dependencies]
